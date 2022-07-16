@@ -6,6 +6,18 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/lmi
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_cangmen_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_cangmen_down.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_cangmen_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_cangmen_up.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_chilun_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_chilun_down.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_chilun_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_chilun_up.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_jijia_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_jijia_down.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_jijia_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_jijia_up.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_mofa_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_mofa_down.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_mofa_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_mofa_up.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_muqin_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_muqin_down.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_muqin_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_muqin_up.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_yingyan_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_yingyan_down.ogg \
+    vendor/xiaomi/lmi/proprietary/media/audio/ui/popup_yingyan_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_yingyan_up.ogg \
     vendor/xiaomi/lmi/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/lmi/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/lmi/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
@@ -69,7 +81,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/xiaomi/lmi/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/xiaomi/lmi/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
+    vendor/xiaomi/lmi/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/xiaomi/lmi/proprietary/vendor/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.secure_element@1.2-service \
+    vendor/xiaomi/lmi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.motor@1.0-service \
     vendor/xiaomi/lmi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service \
     vendor/xiaomi/lmi/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/xiaomi/lmi/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -133,11 +147,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
     vendor/xiaomi/lmi/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_HD_V03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_HD_V03.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_T_2x_V03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_T_2x_V03.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_T_4x_V03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_T_4x_V03.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_UW_V03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW_V03.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_W_V03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_W_V03.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_HD_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_HD_V01.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_T_3x_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_T_3x_V01.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW_V01.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/CFR_para_W_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_W_V01.bin \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/LDC_FPC_TUNING_DATA.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_FPC_TUNING_DATA.bin \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/LDC_FPC_TUNING_DATA_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_FPC_TUNING_DATA_AI.bin \
@@ -145,24 +158,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/ai_enhance.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ai_enhance.dlc \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_moon_lmi.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_moon_lmi.config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom20x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100_zoom20x.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom30x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100_zoom30x.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom40x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100_zoom40x.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_moon.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_moon.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_zoom20x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_zoom20x.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_zoom30x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_zoom30x.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_zoom40x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_zoom40x.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_tele_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_iso100.config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_wide.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide.config \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/almalence_sr_params_wide_64M.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide_64M.config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/bokehParams.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bokehParams.json \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/com.xiaomi.dcal.wd.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wd.golden \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/com.xiaomi.dcal.wt.fake:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wt.fake \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/com.xiaomi.dcal.wt4x.fake:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wt4x.fake \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.fake:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.fake \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/det_quantize.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/det_quantize.dlc \
@@ -170,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/goturn_search_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_search_dsp.dlc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/goturn_target_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_target_dsp.dlc \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/hdrd_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdrd_ui9_params.config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/mibokeh_855_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_855_opencl.bin \
@@ -240,6 +244,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/init/init.lmi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.lmi.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
@@ -266,6 +271,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
@@ -288,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/lmi/proprietary/vendor/etc/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
@@ -350,6 +355,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/lmi/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/step_motor/mi_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/step_motor/mi_camera_config.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/thermal-4k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-4k.conf \
     vendor/xiaomi/lmi/proprietary/vendor/etc/thermal-8k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-8k.conf \
     vendor/xiaomi/lmi/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
@@ -378,11 +384,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/aw8697_rtp_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_1.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_tele4x_ois.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_tele4x_ois.coeff \
-    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_tele4x_ois.mem:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_tele4x_ois.mem \
-    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_tele4x_ois.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_tele4x_ois.prog \
-    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_wide_ois.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_wide_ois.coeff \
-    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_wide_ois.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_wide_ois.prog \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-revb2.wmfw \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-z-revb2.bin \
@@ -408,6 +409,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/xiaomi/lmi/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
+    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_tele_lc898124_ois.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_tele_lc898124_ois.coeff \
+    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_tele_lc898124_ois.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_tele_lc898124_ois.prog \
+    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_tele_rohm_ois.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_tele_rohm_ois.coeff \
+    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_tele_rohm_ois.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_tele_rohm_ois.prog \
+    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_wide_ois_ST.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_wide_ois_ST.coeff \
+    vendor/xiaomi/lmi/proprietary/vendor/firmware/lmi_wide_ois_ST.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/lmi_wide_ois_ST.prog \
     vendor/xiaomi/lmi/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/xiaomi/lmi/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/lmi/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
@@ -464,6 +471,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatching.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxifestriping.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamximageformatutils.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxncs.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
@@ -537,13 +553,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvdsp_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libfrc_mobilenet.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfrc_mobilenet.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhexagon_nn_skel.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.sod9faceb2af78d180bf184d39d3962f181f7f45b3:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhexagon_nn_skel.sod9faceb2af78d180bf184d39d3962f181f7f45b3 \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmobilenet_dsp.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libremosaichvx_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libremosaichvx_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skeld9faceb2af78d180bf184d39d3962f181f7f45b3.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_domains_skeld9faceb2af78d180bf184d39d3962f181f7f45b3.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so \
@@ -562,41 +578,41 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.3.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/vndk/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libxlog.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.actuator.lmi_sunny_ultra_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.lmi_sunny_ultra_dw9800.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_ofilm_s5k3t2_gt24p64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_ofilm_s5k3t2_gt24p64.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_semco_ov08a10_m24c64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_semco_ov08a10_m24c64.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_semco_ov08a10_m24c64x.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_semco_ov08a10_m24c64x.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_semco_s5k2l7_m24c64x.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_semco_s5k2l7_m24c64x.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_semco_s5khmx_m24c128.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_semco_s5khmx_m24c128.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_semco_s5khmx_m24c128x.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_semco_s5khmx_m24c128x.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_semco_s5khmx_m24c64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_semco_s5khmx_m24c64.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx350_gt24p64b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_imx350_gt24p64b.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_s5k5e8yx_gt24p64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_s5k5e8yx_gt24p64.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.hawkeye_semco_ov48c_m24c64x.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.hawkeye_semco_ov48c_m24c64x.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b_st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b_st.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_ov08a10_gt24p64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_ov08a10_gt24p64.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_ov08a10_lc898124_gt24p64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_ov08a10_lc898124_gt24p64.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_ov13b10_gt24p64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_ov13b10_gt24p64.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_s5k3t2_gt24p64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_s5k3t2_gt24p64.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.lmi_sunny_s5k5e9yx04_gt24p64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lmi_sunny_s5k5e9yx04_gt24p64.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.lmi_s5k5e8yx_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lmi_s5k5e8yx_macro.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.imx350_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx350_lmi.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.gc02m1_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.gc02m1_lmi.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.imx563.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx563.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.imx686_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx686_lmi.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.ov08a10_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov08a10_lmi.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.ov48c_hawkeye.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov48c_hawkeye.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2l7_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2l7_lmi.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.ov13b10_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13b10_lmi.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3t2_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3t2_lmi.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.s5khmx_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5khmx_lmi.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.s5khmx_wide_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5khmx_wide_lmi.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_ofilm_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_ofilm_s5k3t2.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_semco_ov08a10_tele4x_v1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_semco_ov08a10_tele4x_v1.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_semco_s5k2l7_tele2x.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_semco_s5k2l7_tele2x.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_semco_s5khmx_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_semco_s5khmx_wide.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_semco_s5khmx_wide_v1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_semco_s5khmx_wide_v1.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx350_ultra_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_imx350_ultra_wide.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.hawkeye_semco_ov48c_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.hawkeye_semco_ov48c_wide.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_ofilm_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_ofilm_s5k3t2.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_semco_ov08a10_tele4x.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_semco_ov08a10_tele4x.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_semco_s5k2l7_tele2x.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_semco_s5k2l7_tele2x.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_semco_s5khmx_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_semco_s5khmx_wide.bin \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_imx350_ultra_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_imx350_ultra_wide.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensor.s5k5e9yx04_lmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k5e9yx04_lmi.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_ofilm_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_ofilm_gc02m1_depth.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_mp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_mp.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_mp_st.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_mp_st.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_st.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_imx686_wide_st.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_ov08a10_tele.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_ov08a10_tele.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_ov08a10_tele_lc124.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_ov08a10_tele_lc124.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_ov13b10_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_ov13b10_ultra.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_s5k3t2_front.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.sensormodule.lmi_sunny_s5k5e9yx04_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lmi_sunny_s5k5e9yx04_macro.bin \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_ofilm_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_ofilm_gc02m1_depth.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_imx686_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_imx686_wide.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_imx686_wide_st.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_imx686_wide_st.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_ov08a10_tele.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_ov08a10_tele.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_ov13b10_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_ov13b10_ultra.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_ov13b10_ultra_pro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_ov13b10_ultra_pro.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_s5k3t2_front.bin \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/com.qti.tuned.lmi_sunny_s5k5e9yx04_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lmi_sunny_s5k5e9yx04_macro.bin \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/components/com.arcsoft.node.deflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.deflicker.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.smoothtransition.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/camera/components/com.arcsoft.node.superportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.superportrait.so \
@@ -717,6 +733,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.motor@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.motor@1.0-impl.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/jcos_nq_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/jcos_nq_client.so \
@@ -782,7 +799,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libalLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalLDC.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libalhLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalhLDC.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/libarcdualcamsat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcdualcamsat.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libarcsoft_bodyslim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_bodyslim.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
@@ -823,7 +839,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
@@ -866,8 +884,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamic.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamicootf.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libhexagon_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_stub.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libhta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta_hexagon_runtime.so \
@@ -910,13 +926,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmialgo_sd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_sd.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmialgo_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_utils.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmialgo_video_colourkeeping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_video_colourkeeping.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/libmialgo_video_enhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_video_enhance.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmialgo_video_seg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_video_seg.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmialgoengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgoengine.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmibokeh_845_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_845_video.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmibokeh_855.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_855.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/libmivendor_module_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmivendor_module_calibration.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/libmivendor_module_hall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmivendor_module_hall.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/libmivendor_module_motor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmivendor_module_motor.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
@@ -945,7 +963,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfioctl.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowercore.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
@@ -974,7 +991,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/librelight_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librelight_only.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libremosaichvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaichvx_stub.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
@@ -1041,7 +1057,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrasound.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libvideoBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoBokeh.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib64/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideooptfeature.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
@@ -1055,6 +1070,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/ls_nq_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ls_nq_client.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/mi.motor.daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mi.motor.daemon.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
@@ -1142,6 +1158,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.slmadapter@1.0.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.2.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.3.so \
