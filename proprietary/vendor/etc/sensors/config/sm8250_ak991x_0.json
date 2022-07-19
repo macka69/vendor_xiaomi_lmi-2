@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Surf", "CMI"],
+    "hw_platform": ["MTP", "Surf", "LMI"],
     "soc_id": ["321", "339", "356"]
   },
   "ak0991x_0_platform":{
@@ -57,13 +57,13 @@
     ".orient":{
       "owner": "sns_ak0991x",
       "x":{ "type": "str", "ver": "2",
-        "data": "-x"
+        "data": "+x"
       },
       "y":{ "type": "str", "ver": "2",
         "data": "+y"
       },
-      "z":{ "type": "str", "ver": "1",
-        "data": "-z"
+      "z":{ "type": "str", "ver": "2",
+        "data": "+z"
       }
     },
     ".mag":{
@@ -156,85 +156,85 @@
     ".pdc_parameter":{
       "owner": "sns_ak0991x",
       "0":{ "type": "flt", "ver": "0",
-        "data": "205"
+        "data": "140"
       },
       "1":{ "type": "flt", "ver": "0",
-        "data": "86"
+        "data": "80"
       },
       "2":{ "type": "flt", "ver": "0",
-        "data": "61"
+        "data": "181"
       },
       "3":{ "type": "flt", "ver": "0",
         "data": "13"
       },
       "4":{ "type": "flt", "ver": "0",
-        "data": "72"
+        "data": "5"
       },
       "5":{ "type": "flt", "ver": "0",
-        "data": "8"
-      },
-      "6":{ "type": "flt", "ver": "0",
-        "data": "0"
-      },
-      "7":{ "type": "flt", "ver": "0",
-        "data": "130"
-      },
-      "8":{ "type": "flt", "ver": "0",
-        "data": "213"
-      },
-      "9":{ "type": "flt", "ver": "0",
-        "data": "55"
-      },
-      "10":{ "type": "flt", "ver": "0",
-        "data": "239"
-      },
-      "11":{ "type": "flt", "ver": "0",
-        "data": "192"
-      },
-      "12":{ "type": "flt", "ver": "0",
-        "data": "108"
-      },
-      "13":{ "type": "flt", "ver": "0",
-        "data": "28"
-      },
-      "14":{ "type": "flt", "ver": "0",
-        "data": "253"
-      },
-      "15":{ "type": "flt", "ver": "0",
-        "data": "232"
-      },
-      "16":{ "type": "flt", "ver": "0",
-        "data": "254"
-      },
-      "17":{ "type": "flt", "ver": "0",
-        "data": "229"
-      },
-      "18":{ "type": "flt", "ver": "0",
         "data": "128"
       },
-      "19":{ "type": "flt", "ver": "0",
-        "data": "112"
+      "6":{ "type": "flt", "ver": "0",
+        "data": "2"
       },
-      "20":{ "type": "flt", "ver": "0",
-        "data": "192"
+      "7":{ "type": "flt", "ver": "0",
+        "data": "132"
       },
-      "21":{ "type": "flt", "ver": "0",
-        "data": "0"
+      "8":{ "type": "flt", "ver": "0",
+        "data": "214"
       },
-      "22":{ "type": "flt", "ver": "0",
-        "data": "204"
+      "9":{ "type": "flt", "ver": "0",
+        "data": "54"
       },
-      "23":{ "type": "flt", "ver": "0",
-        "data": "111"
+      "10":{ "type": "flt", "ver": "0",
+        "data": "203"
       },
-      "24":{ "type": "flt", "ver": "0",
-        "data": "10"
-      },
-      "25":{ "type": "flt", "ver": "0",
+      "11":{ "type": "flt", "ver": "0",
         "data": "77"
       },
+      "12":{ "type": "flt", "ver": "0",
+        "data": "251"
+      },
+      "13":{ "type": "flt", "ver": "0",
+        "data": "107"
+      },
+      "14":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "15":{ "type": "flt", "ver": "0",
+        "data": "223"
+      },
+      "16":{ "type": "flt", "ver": "0",
+        "data": "3"
+      },
+      "17":{ "type": "flt", "ver": "0",
+        "data": "176"
+      },
+      "18":{ "type": "flt", "ver": "0",
+        "data": "174"
+      },
+      "19":{ "type": "flt", "ver": "0",
+        "data": "93"
+      },
+      "20":{ "type": "flt", "ver": "0",
+        "data": "190"
+      },
+      "21":{ "type": "flt", "ver": "0",
+        "data": "250"
+      },
+      "22":{ "type": "flt", "ver": "0",
+        "data": "70"
+      },
+      "23":{ "type": "flt", "ver": "0",
+        "data": "121"
+      },
+      "24":{ "type": "flt", "ver": "0",
+        "data": "15"
+      },
+      "25":{ "type": "flt", "ver": "0",
+        "data": "66"
+      },
       "26":{ "type": "flt", "ver": "0",
-        "data": "55"
+        "data": "21"
       }
     }
   }

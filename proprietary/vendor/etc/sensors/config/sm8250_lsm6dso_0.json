@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "CMI"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "LMI"],
     "soc_id": ["321", "339", "356"]
   },
   "lsm6dso_0_platform":{
@@ -29,7 +29,7 @@
         "data": "0"
       },
       "dri_irq_num":{ "type": "int", "ver": "1",
-        "data": "122"
+        "data": "121"
       },
       "irq_pull_type":{ "type": "int", "ver": "1",
         "data": "2"
@@ -64,13 +64,13 @@
     },
     ".orient":{
       "owner": "lsm6dso",
-      "x":{ "type": "str", "ver": "4",
-        "data": "+x"
+      "x":{ "type": "str", "ver": "3",
+        "data": "-x"
       },
-      "y":{ "type": "str", "ver": "4",
-        "data": "+y"
+      "y":{ "type": "str", "ver": "3",
+        "data": "-y"
       },
-      "z":{ "type": "str", "ver": "2",
+      "z":{ "type": "str", "ver": "3",
         "data": "+z"
       }
     },

@@ -300,6 +300,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
@@ -558,13 +559,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvdsp_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libfrc_mobilenet.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfrc_mobilenet.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.sod9faceb2af78d180bf184d39d3962f181f7f45b3:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhexagon_nn_skel.sod9faceb2af78d180bf184d39d3962f181f7f45b3 \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhexagon_nn_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmobilenet_dsp.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libremosaichvx_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libremosaichvx_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skeld9faceb2af78d180bf184d39d3962f181f7f45b3.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_domains_skeld9faceb2af78d180bf184d39d3962f181f7f45b3.so \
+    vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so \
     vendor/xiaomi/lmi/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so \

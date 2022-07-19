@@ -1,6 +1,6 @@
 {
   "config": {
-    "hw_platform": [ "MTP", "Dragon", "Surf", "HDK", "QRD", "CMI"],
+    "hw_platform": [ "MTP", "Dragon", "Surf", "HDK", "QRD", "LMI"],
     "soc_id": ["339", "340", "356", "361"]
   },
   "sns_tilt": {
