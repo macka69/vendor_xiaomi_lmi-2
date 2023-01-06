@@ -360,7 +360,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/config/tsl2560_back.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tsl2560_back.json \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/config/tsl2560_dup.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tsl2560_dup.json \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/config/tsl2560_pol.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tsl2560_pol.json \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_diag.cfg \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
